@@ -7,8 +7,8 @@ const year = document.getElementById("year");
 const loading = document.getElementById("loading");
 
 const currentYear = new Date().getFullYear();
-const birthdayTime = new Date(`July 10 ${currentYear} 00:00:00`);
-year.innerText = `July 10 ${currentYear}`;
+const birthdayTime = new Date(`July 19 ${currentYear} 00:00:00`);
+year.innerText = `July 19 ${currentYear}`;
 
 // update countdown
 function updateCountdown() {
