@@ -21,9 +21,9 @@ function updateCountdown() {
 
   //add values to DOM
   days.innerHTML = d;
-  hours.innerHTML = h < 10 ? "0" + h : h;
-  minutes.innerHTML = m < 10 ? "0" + m : m;
-  seconds.innerHTML = s < 10 ? "0" + s : s;
+  hours.innerHTML = h < 9 ? "0" + h : h;
+  minutes.innerHTML = m < 9 ? "0" + m : m;
+  seconds.innerHTML = s < 9 ? "0" + s : s;
 }
 
 //show spinner before countdown
